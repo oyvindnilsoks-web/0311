@@ -8,7 +8,7 @@
 //   node tts.mjs --voices            # list tilgjengelige stemmer
 //
 // Valg:
-//   --voice <id>     Stemme-ID (standard: ELEVENLABS_VOICE_ID eller Rachel)
+//   --voice <id>     Stemme-ID (standard: ELEVENLABS_VOICE_ID eller George)
 //   --model <id>     Modell (standard: eleven_multilingual_v2)
 //   --format <fmt>   Lydformat (standard: mp3_44100_128)
 //   --out <fil>      Utfil (standard: output/<tidsstempel>.mp3)
@@ -19,7 +19,7 @@ import { dirname, join } from "node:path";
 import { parseArgs } from "node:util";
 
 const API = "https://api.elevenlabs.io/v1";
-const DEFAULT_VOICE = "21m00Tcm4TlvDq8ikWAM"; // Rachel
+const DEFAULT_VOICE = "JBFqnCBsd6RMkjVDRZzb"; // George (gratis å bruke via API)
 
 loadDotEnv();
 

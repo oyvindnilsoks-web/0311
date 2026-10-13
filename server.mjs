@@ -8,7 +8,7 @@ import { readFileSync, existsSync } from "node:fs";
 
 const API = "https://api.elevenlabs.io/v1";
 const PORT = Number(process.env.PORT) || 3000;
-const DEFAULT_VOICE = "21m00Tcm4TlvDq8ikWAM"; // Rachel
+const DEFAULT_VOICE = "JBFqnCBsd6RMkjVDRZzb"; // George (gratis å bruke via API)
 
 loadDotEnv();
 const apiKey = process.env.ELEVENLABS_API_KEY;
